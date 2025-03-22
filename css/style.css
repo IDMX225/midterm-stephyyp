@@ -1,6 +1,6 @@
 
 body  {
-    font-family: ;
+    font-family: Arial, sans-serif;
     font-size: 2rem;
     margin: 0.67em ;
     padding: 5rem;
@@ -21,18 +21,18 @@ header {
         display: inline;
       }
       li a:hover {
-        background-color: #f7cbd2;
+        background-color: #EFB11D;
       }
       li a {
         display: block;
-        color: rgb(0, 0, 0);
+        color: #000000;
         padding: 14px 16px;
         text-decoration: none;
       }
       .active {
         background-color: #ff7e93;
       }
-    background-color: #f4f4f4;
+    background-color: #FA6E61;
     padding: 0rem;
     margin: 2rem;
     border: 3px solid #e49494;
@@ -53,13 +53,23 @@ header {
 #reviewstitle {
     text-align: center;
     margin: 1;
-    padding: 5em;
-    list-style-type: none;
-}
-#reviews {
-    text-align: center;
-    margin: 1;
-    padding: 5em;
+    padding: 1em;
     list-style-type: none;
 }
 
+
+#reviews {
+    text-align: center;
+    margin: 1;
+    padding: 1em;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+#footer {
+    background-color: #EFB11D;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+    margin-top: 10em;
+}
