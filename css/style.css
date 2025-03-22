@@ -12,7 +12,7 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 5em;
     margin-bottom: 10em;
 }
 
@@ -21,7 +21,7 @@ header {
         display: inline;
       }
       li a:hover {
-        background-color: #ff7e93;
+        background-color: #f7cbd2;
       }
       li a {
         display: block;
@@ -29,11 +29,37 @@ header {
         padding: 14px 16px;
         text-decoration: none;
       }
+      .active {
+        background-color: #ff7e93;
+      }
     background-color: #f4f4f4;
-    padding: 0;
-    margin: 0;
+    padding: 0rem;
+    margin: 2rem;
     border: 3px solid #e49494;
     list-style-type: none;
     text-align: center;
 
 }
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0;
+    padding: 2em;
+    list-style-type: none;
+    font-size: large;
+}
+#reviewstitle {
+    text-align: center;
+    margin: 1;
+    padding: 5em;
+    list-style-type: none;
+}
+#reviews {
+    text-align: center;
+    margin: 1;
+    padding: 5em;
+    list-style-type: none;
+}
+
